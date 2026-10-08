@@ -34,3 +34,19 @@ result-*
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.auto.tfvars
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# AWS local credentials
+.aws/
